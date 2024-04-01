@@ -4,7 +4,7 @@ import sqlite3
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QPushButton, QListWidget, QMessageBox, QDialog, QInputDialog, QLabel, QLineEdit, QHBoxLayout, QTextEdit, QFileDialog, QStackedWidget, QComboBox
 from PyQt5.QtGui import QColor, QFont, QPainter, QBrush
 from PyQt5.QtCore import Qt, QRect
-
+ 
 class Despesa:
     def __init__(self, categoria, item, valor):
         self.categoria = categoria
