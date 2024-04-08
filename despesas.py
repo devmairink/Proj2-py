@@ -10,7 +10,7 @@ class Despesa:
         self.categoria = categoria
         self.item = item
         self.valor = valor
-
+ 
 class Categoria:
     def __init__(self, nome):
         self.nome = nome
